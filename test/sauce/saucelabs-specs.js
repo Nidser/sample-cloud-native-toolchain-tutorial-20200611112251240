@@ -6,7 +6,8 @@ var chai = require('chai');
 var chaiAsPromised = require('chai-as-promised');
 
 //var url = 'http://localhost:3000/';
-var url = 'https://sample-cloud-native-toolchain-tutorial-20200611112251240-test.mybluemix.net/docs/'
+//var url = 'https://sample-cloud-native-toolchain-tutorial-20200611112251240-test.mybluemix.net/docs/'
+var url = 'https://sample-cloud-native-toolchain-tutorial-20200611112251240.mybluemix.net/'
 
 if (process.env.APP_URL && process.env.APP_URL !== 'undefined') {
   url = process.env.APP_URL;
